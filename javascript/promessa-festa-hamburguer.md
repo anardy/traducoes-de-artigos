@@ -103,7 +103,7 @@ Agora que você tem um hambúrguer e um milkshake, você está pronto para a FES
 Existem mais alguns métodos em promises que permitem a você fazer truques legais.
 
 Promise.all() cria uma promise que recebe um array de promises (itens).
-Essa promise é completada quando todos os seus items (cada um é uma promise) são completados. Imagine que você pediu 5 hambúrgueres diferentes para seu grupo, mas quer minimizar a viagem até o balção para apenas uma, feita quando todos os pedidos estiverem prontos. Promise.all() é uma boa solução para isso.
+Essa promise é completada quando todos os seus items (cada um é uma promise) são completados. Imagine que você pediu 5 hambúrgueres diferentes para seu grupo, mas quer minimizar a viagem até o balcão para apenas uma, feita quando todos os pedidos estiverem prontos. Promise.all() é uma boa solução para isso.
 
 Promise.race() é similar a Promise.all(). Mas é completada ou rejeitada assim que um dos itens é completado ou rejeitado. Pode ser usado para simular tentar e pegar. Se você estiver com muita fome, você pode pedir um hambúrguer, um hambúrguer com queijo, e um hot dog ao mesmo tempo, apenas para pegar qualquer que seja o primeiro que saia da cozinha. (Nota, nessa analogia se a cozinha estiver sem hambúrguer e rejeitar o hambúrguer primeiro, então toda a race promise terá seu estado rejeitado).
 
